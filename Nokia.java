@@ -22,7 +22,7 @@ public class Nokia implements Devices{
   
     @Override
     public String getDetails() {
-        return "Mobile Name: "+modelName +" and Processor: "+ram;
+        return "Mobile Name: "+modelName +" and Ram: "+ram;
     }
     
 }

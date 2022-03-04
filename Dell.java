@@ -13,16 +13,18 @@ public class Dell implements Devices{
     
     String modelName;
     String ram;
+    String ssd;
 
-    public Dell(String modelName, String ram) {
+    public Dell(String modelName, String ram, String ssd) {
         this.modelName = modelName;
         this.ram = ram;
+        this.ssd = ssd;
     }
 
-  
+   
     @Override
     public String getDetails() {
-        return "Laptop Name: "+modelName +" and Processor: "+ram;
+        return "Laptop Name: "+modelName +" and Ram: "+ram+ " SSD: "+ssd;
     }
     
 }

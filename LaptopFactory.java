@@ -15,7 +15,7 @@ public class LaptopFactory extends AbstractDeviceFactory{
     Devices getGadget(String Modelname) {
         
         if (Modelname.equalsIgnoreCase("dell")) {
-            return new Dell("Dell Inspiron", "4GB");
+            return new Dell("Dell Inspiron", "4GB","240GB");
         } 
         return null;
     }
